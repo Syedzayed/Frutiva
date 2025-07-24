@@ -141,9 +141,9 @@ Feel free to open issues or reach out to collaborate!
 
 ## 📧 Contact
 
-- ✉️ Email: your-email@example.com  
-- 💼 LinkedIn: [Your LinkedIn Profile]  
-- 🌐 Portfolio: [yourportfolio.com]  
+- ✉️ Email: syedzayedahmed2004@gmail.com  
+- 💼 LinkedIn: [https://www.linkedin.com/in/syedzayedahmed/]  
+- 🌐 Portfolio: [Zayedahmed.in]  
 
 ---
 
