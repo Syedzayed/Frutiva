@@ -139,11 +139,17 @@ Feel free to open issues or reach out to collaborate!
 
 ---
 
+## 👨‍💻 Author
+
+**Syed Zayed Ahmed**  
+Front-End Developer | UI/UX Designer
+
 ## 📧 Contact
 
-- ✉️ Email: syedzayedahmed2004@gmail.com  
-- 💼 LinkedIn: [https://www.linkedin.com/in/syedzayedahmed/]  
-- 🌐 Portfolio: [Zayedahmed.in]  
+- ✉️ **Email:** [syedzayedahmed2004@gmail.com](mailto:syedzayedahmed2004@gmail.com)  
+- 💼 **LinkedIn:** [linkedin.com/in/syedzayedahmed](https://www.linkedin.com/in/syedzayedahmed/)  
+- 🌐 **Portfolio:** [zayedahmed.in](https://www.zayedahmed.in/)
+
 
 ---
 
