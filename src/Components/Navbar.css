@@ -1,0 +1,244 @@
+/* Navbar.css */
+:root {
+  --base-color: #ffffff;
+  --secondary-color: #4e6e57;
+  --accent-color: #ff7a00;
+  --hover-color: #cc6400;
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+
+
+/* Base Navbar Styles */
+.navbar {
+  background-color: transparent !important;
+  position:  fixed;
+  top: 0;
+  width: 100%;
+   height: 70px;
+  z-index: 1000;
+  font-family: 'Poppins', 'Inter', 'Lato', sans-serif;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.25rem 2rem;
+}
+
+/* Brand Logo */
+.brand-logo {
+  color: var(--base-color);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  font-family: "Satoshi", sans-serif;
+}
+
+.brand-logo:hover {
+  color: var(--hover-color);
+}
+
+/* Navigation Links */
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link {
+  color: var(--base-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--accent-color);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Right Side Actions */
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.login-link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.login-link:hover {
+  color: var(--hover-color);
+}
+
+.cta-button-1 {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.6rem 1.25rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e66d00;
+  transform: scale(0.98);
+}
+
+/* Mobile Menu Button (hidden by default) */
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.menu-icon {
+  display: flex;
+  color: var(--base-color);
+  flex-direction: column;
+  justify-content: space-between;
+  width: 24px;
+  height: 18px;
+}
+
+.menu-icon span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--base-color);
+  transition: all 0.3s ease;
+}
+
+.menu-icon.open span:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.open span:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Mobile Menu (hidden by default) */
+.mobile-menu {
+  flex-direction: column;
+  padding: 0 2rem 1.5rem;
+  overflow-y: auto;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 100%;
+  background-color: var(--base-color);
+  z-index: 999;
+}
+
+
+.mobile-menu.open {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem 1.5rem;
+  height: 100dvh;
+  overflow-y: auto;
+}
+
+.mobile-nav-link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid rgba(78, 110, 87, 0.1);
+  transition: color 0.2s ease;
+}
+
+.mobile-nav-link:hover {
+  color: var(--hover-color);
+}
+
+.mobile-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.mobile-login-link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.8rem 0;
+  transition: color 0.2s ease;
+}
+
+.mobile-login-link:hover {
+  color: var(--hover-color);
+}
+
+.mobile-cta-button {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.8rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.mobile-cta-button:hover {
+  background-color: #e66d00;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .navbar-links,
+  .navbar-actions {
+    display: none;
+  }
+
+  .mobile-menu-button {
+    display: flex;
+    align-items: center;
+  }
+    .navbar-container {
+    padding: 1rem 1.5rem;
+    position: relative; /* Ensure mobile menu positions correctly */
+  }
+
+}
+
+@media (max-width: 576px) {
+  .navbar-container {
+    padding: 1rem 1.5rem;
+  }
+}

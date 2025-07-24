@@ -1,0 +1,303 @@
+/* Base styles */
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.hero-gradient {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #5E7D69, #2D473A);
+  z-index: -1;
+}
+
+/* Stack all content vertically with spacing */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* evenly distribute */
+  text-align: center;
+  width: 100%;
+ 
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  padding: 1rem 0;
+}
+
+/* Behind text */
+.hero-behind-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: clamp(4rem, 9vw, 7rem);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.438);
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1;
+  white-space: nowrap;
+}
+
+/* Bottle section */
+.bottle-container {
+  position: relative;
+  width: 400px; /* fixed width */
+  height: 450px; /* fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.bottle-image {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+  z-index: 2;
+}
+
+.bottle-shadow {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 20px;
+  background: radial-gradient(ellipse at center, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 70%);
+  border-radius: 50%;
+  filter: blur(5px);
+  z-index: 1;
+}
+
+/* Tagline */
+.hero-tagline {
+  font-size: clamp(1rem, 1.8vw, 1.25rem);
+  font-weight: 300;
+  color: #F8F5F0;
+  margin: 1.2rem 0;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+/* CTA Buttons */
+.hero-cta {
+  display: flex;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.cta-primary {
+  padding: 0.75rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.cta-primary {
+  background-color: #FF7A00;
+  color: white;
+  box-shadow: 0 4px 12px rgba(255, 122, 0, 0.3);
+}
+
+.cta-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(255, 122, 0, 0.4);
+}
+
+
+
+
+/* Common text style (inherits from .hero-behind-text logic) */
+.flavor-line-text {
+  font-size: clamp(0.9rem, 4vw, 2rem);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  user-select: none;
+  white-space: nowrap;
+}
+
+
+.flavor-line-right {
+  width: 100px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* BOTTOM RIGHT (line + integration) */
+
+
+.flavor-line-left {
+  width: 100px;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.flavor-label {
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.9);
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  margin-top: 1rem;
+}
+
+/* Optional: smooth idle rotation effect */
+.rotating-bottle {
+  animation: rotate-bottle 10s linear infinite;
+}
+
+.rotating-bottle {
+  animation: levitate-bottle 4s ease-in-out infinite;
+}
+
+
+@keyframes rotate-bottle {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  50% {
+    transform: rotateZ(1.5deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+  }
+}
+
+@keyframes levitate-bottle {
+  0%, 100% {
+    transform: translateY(0) rotateZ(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotateZ(1.5deg);
+  }
+}
+
+.floating-item {
+  position: absolute;
+  left: 20%;
+  bottom: 18%;
+  width: 80px;
+  pointer-events: none;
+  z-index: 2;
+  animation: floatUpDown 4s ease-in-out infinite;
+}
+
+.floating-item-1 {
+  position: absolute;
+  left: 55%;
+  bottom: 60%;
+  width: 80px;
+  pointer-events: none;
+  z-index: 2;
+  animation: floatUpDown 4s ease-in-out infinite;
+}
+
+@keyframes floatUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hero-container {
+    padding: 1.5rem 1rem;
+    height: 100dvh;
+  }
+
+  .hero-content {
+    justify-content: flex-start;
+    height: auto;
+    gap: 2rem;
+  }
+
+  .hero-behind-text {
+     top: 33%;
+    font-size: clamp(1.3rem, 2.9vw, 3rem);
+    opacity: 0.08;
+  }
+
+  .bottle-image {
+    max-width: 280px;
+  }
+
+  .hero-cta {
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .cta-primary,
+  .cta-secondary {
+    width: 100%;
+  }
+
+  .floating-item {
+  position: absolute;
+  left: 13%;
+  bottom: 18%;
+  width: 80px;
+  pointer-events: none;
+  z-index: 2;
+  animation: floatUpDown 4s ease-in-out infinite;
+}
+
+.floating-item-1 {
+  position: absolute;
+  left: 55%;
+  bottom: 60%;
+  width: 80px;
+  pointer-events: none;
+  z-index: 2;
+  animation: floatUpDown 4s ease-in-out infinite;
+}
+}
+
+@media (max-width: 768px) {
+  .flavor-line-right,
+  .flavor-line-left {
+    width: 60px;
+  }
+
+  .flavor-line-text {
+    font-size: clamp(1rem, 3.5vw, 2rem);
+  }
+  .hero-tagline{
+    margin:  0;
+  }
+}
+
