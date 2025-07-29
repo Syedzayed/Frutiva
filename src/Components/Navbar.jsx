@@ -9,7 +9,6 @@ const Navbar = () => {
   { name: "Home", path: "/" },
   { name: "About", path: "/#about" }, // use anchor link
   { name: "Products", path: "/shop" },
-  { name: "Seasonal Specials", path: "/seasonalspecials" },
   { name: "Contact", path: "/contact" },
   { name: "Login", path: "/login" },
 ];
