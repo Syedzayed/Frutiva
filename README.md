@@ -1,10 +1,26 @@
 # 🧃 Frutivá – Premium Fermented Juice Brand Website
 
-**Tagline:** *Naturally fermented. Unforgettably fresh.*
+**Tagline:** _Naturally fermented. Unforgettably fresh._
 
 Frutivá is a **premium fermented juice brand** website showcasing naturally fermented, probiotic-rich beverages. This is a modern, responsive React-based web application emphasizing smooth animations, premium design, and an exceptional user experience.
 
+**🔗 Live Demo:** [https://frutiva.netlify.app](https://frutiva.netlify.app)
+
+
 ---
+
+
+
+
+
+## 📸 Screenshots
+
+| 🧃 Hero Section | 📖 Brand Story | 🍊 Why Frutivá |
+|----------------|----------------|----------------|
+| ![Hero](./public/Screenshot.png) | ![Story](./public/Screenshot.png) | ![USP](./public/Screenshot.png) |
+
+---
+
 
 ## ✨ Features
 
@@ -72,90 +88,3 @@ npm start
 
 # Build for production
 npm run build
-
-```
-
-## 🔄 Project Status
-
-This project is actively under development!  
-I'm adding new features and pages daily to create a complete premium juice brand website.
-
----
-
-## ✅ Completed
-
-- 🍊 Landing page with rotating product showcase  
-- 🍷 Brand story section with glass-morphism  
-- 📱 Responsive navigation with mobile menu  
-- 💫 Smooth animations and transitions  
-
----
-
-## 🚧 Coming Soon (Daily Updates)
-
-- 📦 **Product Showcase Page** – Full catalog with 10+ flavors  
-- 🧃 **Individual Product Pages** – Details, ingredients, nutrition  
-- 💡 **Why Choose Frutivá** – Benefits & comparisons  
-- 🌟 **Social Proof** – Testimonials and reviews  
-- 📨 **Call-to-Action** – Newsletter signup, store locator  
-- 🔗 **Footer** – Site-wide navigation and links  
-- 📬 **Contact Page** – Get in touch form  
-- 👥 **About Team** – Meet the founders  
-
----
-
-## 🔮 Future Enhancements
-
-- 🛒 Shopping cart functionality  
-- 🔐 User authentication (Firebase Auth)  
-- 📰 Blog for health & fermentation tips  
-- 📍 Store locator with interactive map  
-- 📦 Subscription services  
-- 📲 Mobile app promotion with QR codes  
-
----
-
-## 🌟 Key Highlights
-
-- ⚡ Fast loading and performance-optimized  
-- 🔍 SEO-ready with meta tags and semantic HTML  
-- 🌐 Cross-browser compatibility  
-- 📱 Mobile-first responsive design  
-- ♿ WCAG 2.1 AA accessibility compliant  
-- 🧠 Built with modern React ecosystem (React + CSS Modules)  
-
----
-
-## 📸 Screenshots
-
-📷 *Screenshots will be added soon as features are completed.*
-
----
-
-## 🤝 Contributing
-
-This is a personal portfolio project, but suggestions, feedback, and ideas are always welcome.  
-Feel free to open issues or reach out to collaborate!
-
----
-
-## 👨‍💻 Author
-
-**Syed Zayed Ahmed**  
-Front-End Developer | UI/UX Designer
-
-## 📧 Contact
-
-- ✉️ **Email:** [syedzayedahmed2004@gmail.com](mailto:syedzayedahmed2004@gmail.com)  
-- 💼 **LinkedIn:** [linkedin.com/in/syedzayedahmed](https://www.linkedin.com/in/syedzayedahmed/)  
-- 🌐 **Portfolio:** [zayedahmed.in](https://www.zayedahmed.in/)
-
-
----
-
-## 📆 Development Progress
-
-Last Updated: **July 2025**  
-Track progress through [commits](https://github.com/Syedzayed/Frutiva/commits/main) and changelog.
-
-🌟 **Star this repo** to support and follow the journey!
