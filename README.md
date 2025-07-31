@@ -9,15 +9,10 @@ Frutivá is a **premium fermented juice brand** website showcasing naturally fer
 
 ---
 
+## 📸 Preview
 
+![Frutivá Landing Page Screenshot](./public/Screenshot.png)
 
-
-
-## 📸 Screenshots
-
-| 🧃 Hero Section | 📖 Brand Story | 🍊 Why Frutivá |
-|----------------|----------------|----------------|
-| ![Hero](./public/Screenshot.png) | ![Story](./public/Screenshot.png) | ![USP](./public/Screenshot.png) |
 
 ---
 
