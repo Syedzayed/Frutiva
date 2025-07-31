@@ -11,8 +11,7 @@ Frutivá is a **premium fermented juice brand** website showcasing naturally fer
 
 ## 📸 Preview
 
-![Frutivá Landing Page Screenshot](./public/Screenshot.png)
-
+![Frutivá Landing Page Screenshot](https://github.com/Syedzayed/Frutiva/blob/main/public/Screenshot.png?raw=true)
 
 ---
 
@@ -83,3 +82,27 @@ npm start
 
 # Build for production
 npm run build
+
+
+```
+
+## 👨‍💻 Author
+
+**Syed Zayed Ahmed**  
+Front-End Developer | UI/UX Designer
+
+## 📧 Contact
+
+- ✉️ **Email:** [syedzayedahmed2004@gmail.com](mailto:syedzayedahmed2004@gmail.com)  
+- 💼 **LinkedIn:** [linkedin.com/in/syedzayedahmed](https://www.linkedin.com/in/syedzayedahmed/)  
+- 🌐 **Portfolio:** [zayedahmed.in](https://www.zayedahmed.in/)
+
+
+---
+
+## 📆 Development Progress
+
+Last Updated: **July 2025**  
+Track progress through [commits](https://github.com/Syedzayed/Frutiva/commits/main) and changelog.
+
+🌟 **Star this repo** to support and follow the journey!
