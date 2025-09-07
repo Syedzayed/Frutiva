@@ -6,7 +6,6 @@ Frutivá is a **premium fermented juice brand** website showcasing naturally fer
 
 **🔗 Live Demo:** [https://frutiva.netlify.app](https://frutiva.netlify.app)
 
-
 ---
 
 ## 📸 Preview
@@ -15,10 +14,10 @@ Frutivá is a **premium fermented juice brand** website showcasing naturally fer
 
 ---
 
-
 ## ✨ Features
 
 ### 🏠 Landing Page (Hero Section)
+
 - 🔄 **Rotating Product Showcase** (Auto cycle of 4 signature flavors):
   - Orange Zest
   - Berry Bloom
@@ -30,6 +29,7 @@ Frutivá is a **premium fermented juice brand** website showcasing naturally fer
 - 💎 Glass-morphism with green gradient background (`#5E7D69 → #2D473A`)
 
 ### 📖 Brand Story Section
+
 - 📜 Compelling story: Journey from kitchen experiment to premium brand
 - 🌠 Parallax scrolling with floating elements
 - 🧊 Glass card design with backdrop-blur
@@ -38,6 +38,7 @@ Frutivá is a **premium fermented juice brand** website showcasing naturally fer
 - 🧱 Responsive grid layout
 
 ### 🧭 Navigation
+
 - 📌 Fixed transparent navbar
 - 📱 Mobile hamburger menu
 - 🎨 Consistent orange accent branding (`#FF7A00`)
@@ -89,14 +90,13 @@ npm run build
 ## 👨‍💻 Author
 
 **Syed Zayed Ahmed**  
-Front-End Developer | UI/UX Designer
+Full-Stack Developer| Web Developer | UI/UX Designer
 
 ## 📧 Contact
 
-- ✉️ **Email:** [syedzayedahmed2004@gmail.com](mailto:syedzayedahmed2004@gmail.com)  
-- 💼 **LinkedIn:** [linkedin.com/in/syedzayedahmed](https://www.linkedin.com/in/syedzayedahmed/)  
+- ✉️ **Email:** [syedzayedahmed2004@gmail.com](mailto:syedzayedahmed2004@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/syedzayedahmed](https://www.linkedin.com/in/syedzayedahmed/)
 - 🌐 **Portfolio:** [zayedahmed.in](https://www.zayedahmed.in/)
-
 
 ---
 
